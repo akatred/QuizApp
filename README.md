@@ -19,7 +19,7 @@ This is a simple and interactive quiz application built using React. The app pre
 	•	HTML & CSS
 
 📦 How to Run
-git clone https://github.com/your-username/quiz-app.git
+git clone https://github.com/akatred/QuizApp.git
 cd quiz-app
 npm install
 npm start
