@@ -1,0 +1,167 @@
+{
+    "questions": [
+      {
+        "question": "Which is the most popular JavaScript framework?",
+        "options": ["Angular", "React", "Svelte", "Vue"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which company invented React?",
+        "options": ["Google", "Apple", "Netflix", "Facebook"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What's the fundamental building block of React apps?",
+        "options": ["Components", "Blocks", "Elements", "Effects"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What's the name of the syntax we use to describe the UI in React components?",
+        "options": ["FBJ", "Babel", "JSX", "ES2015"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "How does data flow naturally in React apps?",
+        "options": [
+          "From parents to children",
+          "From children to parents",
+          "Both ways",
+          "The developers decides"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How to pass data into a child component?",
+        "options": ["State", "Props", "PropTypes", "Parameters"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "When to use derived state?",
+        "options": [
+          "Whenever the state should not trigger a re-render",
+          "Whenever the state can be synchronized with an effect",
+          "Whenever the state should be accessible to all components",
+          "Whenever the state can be computed from another state variable"
+        ],
+        "correctOption": 3,
+        "points": 30
+      },
+      {
+        "question": "What triggers a UI re-render in React?",
+        "options": [
+          "Running an effect",
+          "Passing props",
+          "Updating state",
+          "Adding event listeners to DOM elements"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "When do we directly \"touch\" the DOM in React?",
+        "options": [
+          "When we need to listen to an event",
+          "When we need to change the UI",
+          "When we need to add styles",
+          "Almost never"
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "In what situation do we use a callback to update state?",
+        "options": [
+          "When updating the state will be slow",
+          "When the updated state is very data-intensive",
+          "When the state update should happen faster",
+          "When the new state depends on the previous state"
+        ],
+        "correctOption": 3,
+        "points": 30
+      },
+      {
+        "question": "If we pass a function to useState, when will that function be called?",
+        "options": [
+          "On each re-render",
+          "Each time we update the state",
+          "Only on the initial render",
+          "The first time we update the state"
+        ],
+        "correctOption": 2,
+        "points": 30
+      },
+      {
+        "question": "Which hook to use for an API request on the component's initial render?",
+        "options": ["useState", "useEffect", "useRef", "useReducer"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which variables should go into the useEffect dependency array?",
+        "options": [
+          "Usually none",
+          "All our state variables",
+          "All state and props referenced in the effect",
+          "All variables needed for clean up"
+        ],
+        "correctOption": 2,
+        "points": 30
+      },
+      {
+        "question": "An effect will always run on the initial render.",
+        "options": [
+          "True",
+          "It depends on the dependency array",
+          "False",
+          "In depends on the code in the effect"
+        ],
+        "correctOption": 0,
+        "points": 30
+      },
+      {
+        "question": "When will an effect run if it doesn't have a dependency array?",
+        "options": [
+          "Only when the component mounts",
+          "Only when the component unmounts",
+          "The first time the component re-renders",
+          "Each time the component is re-rendered"
+        ],
+        "correctOption": 3,
+        "points": 20
+      }
+    ],
+    "react" : [
+      {
+        "question" : "What is ReactJS?",
+        "id" : 1,
+        "answer" : "ReactJS is a JavaScript library used to build reusable components for the view layer in MVC architecture. It is highly efficient and uses a virtual DOM to render components. It works on the client side and is written in JSX."
+      },
+      {
+        "question" : " Explain the MVC architecture",
+        "id" : 2,
+        "answer" : "The Model-View-Controller (MVC) framework is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. Each architectural component is built to handle specific development aspects of an application. It isolates the business, logic, and presentation layer from each other"
+      },
+      {
+        "question" : "What is JSX?",
+        "id" : 3,
+        "answer" : "JSX is basically a syntax extension of regular JavaScript and is used to create React elements. These elements are then rendered to the React DOM. All the React components are written in JSX. To embed any JavaScript expression in a piece of code written in JSX we will have to wrap that expression in curly braces {}. "
+      },
+      {
+        "question" : "How do browsers read JSX?",
+        "id" :4,
+        "answer" : "In general, browsers are not capable of reading JSX and only can read pure JavaScript. The web browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel"
+      },
+      {
+        "question" : "How to create an event in React?",
+        "id" : 5,
+        "answer":"To create an event in React, attach an event handler like onClick, onChange, etc., to a JSX element. Define the handler function to specify the action when the event is triggered, such as updating state or executing logic."
+      }
+
+    ]
+  }
